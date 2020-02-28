@@ -12,7 +12,7 @@ Sobrenome		VARCHAR (255)
 
 CREATE TABLE TiposUsuario (
 IdTiposUsuarios		INT PRIMARY KEY IDENTITY
-,TiposUsuarios		VARCHAR (255)
+,Tipos		VARCHAR (255)
 );
 
 CREATE TABLE Usuarios (
@@ -21,4 +21,11 @@ IdUsuarios		INT PRIMARY KEY IDENTITY
 ,Senha			VARCHAR (255)
 );
 
+SELECT*FROM TiposUsuario
 
+ALTER TABLE TiposUsuario
+ADD  Tipos	VARCHAR (255)
+
+-- USE T_Peoples;   
+-- GO  
+-- EXEC sp_rename 'Usuario', 'Usuarios'
