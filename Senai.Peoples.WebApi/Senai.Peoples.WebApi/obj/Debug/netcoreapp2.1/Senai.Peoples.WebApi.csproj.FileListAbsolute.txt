@@ -34,9 +34,12 @@ C:\Users\36591349880\Desktop\T_Peoples\Senai.Peoples.WebApi\Senai.Peoples.WebApi
 C:\Users\36591349880\Desktop\T_Peoples\Senai.Peoples.WebApi\Senai.Peoples.WebApi\obj\Debug\netcoreapp2.1\Senai.Peoples.WebApi.RazorTargetAssemblyInfo.cache
 C:\Users\36591349880\Desktop\T_Peoples\Senai.Peoples.WebApi\Senai.Peoples.WebApi\obj\Debug\netcoreapp2.1\Senai.Peoples.WebApi.dll
 C:\Users\36591349880\Desktop\T_Peoples\Senai.Peoples.WebApi\Senai.Peoples.WebApi\obj\Debug\netcoreapp2.1\Senai.Peoples.WebApi.pdb
+<<<<<<< HEAD
 C:\Users\Renan\Desktop\T_Peoples\Senai.Peoples.WebApi\Senai.Peoples.WebApi\bin\Debug\netcoreapp2.1\Senai.Peoples.WebApi.deps.json
 C:\Users\Renan\Desktop\T_Peoples\Senai.Peoples.WebApi\Senai.Peoples.WebApi\bin\Debug\netcoreapp2.1\Senai.Peoples.WebApi.runtimeconfig.json
 C:\Users\Renan\Desktop\T_Peoples\Senai.Peoples.WebApi\Senai.Peoples.WebApi\bin\Debug\netcoreapp2.1\Senai.Peoples.WebApi.runtimeconfig.dev.json
 C:\Users\Renan\Desktop\T_Peoples\Senai.Peoples.WebApi\Senai.Peoples.WebApi\bin\Debug\netcoreapp2.1\Senai.Peoples.WebApi.dll
 C:\Users\Renan\Desktop\T_Peoples\Senai.Peoples.WebApi\Senai.Peoples.WebApi\bin\Debug\netcoreapp2.1\Senai.Peoples.WebApi.pdb
 C:\Users\Renan\Desktop\T_Peoples\Senai.Peoples.WebApi\Senai.Peoples.WebApi\obj\Debug\netcoreapp2.1\Senai.Peoples.WebApi.RazorTargetAssemblyInfo.cache
+=======
+>>>>>>> 98381161094f18fe6eda70c12c3e712475e3fd0d

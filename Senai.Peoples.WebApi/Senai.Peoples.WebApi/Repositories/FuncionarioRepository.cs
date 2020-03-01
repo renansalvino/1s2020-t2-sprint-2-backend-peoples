@@ -10,11 +10,16 @@ namespace Senai.Peoples.WebApi.Repositories
 {
     public class FuncionarioRepository : IFuncionarioRepository
     {
+<<<<<<< HEAD
         private string stringConnection = "Data Source=OFF-WHITE\\SQLEXPRESS; initial catalog=T_Peoples; user Id=sa; pwd=sa@132";
+=======
+        private string stringConnection = "Data Source=DEV20\\SQLEXPRESS; initial catalog=T_Peoples; user Id=sa; pwd=sa@132";
+>>>>>>> 98381161094f18fe6eda70c12c3e712475e3fd0d
         public void Atualizar(FuncionarioDomain funcionario)
         {
             using (SqlConnection con = new SqlConnection(stringConnection))
             {
+<<<<<<< HEAD
                 string queryAtualizar = $"UPDATE Funcionarios SET Nome = '{funcionario.Nome}', Sobrenome = '{funcionario.Sobrenome}' WHERE IdFuncionarios = {funcionario.IdFuncionarios}";
 
                 con.Open();
@@ -22,6 +27,17 @@ namespace Senai.Peoples.WebApi.Repositories
                 {
 
 
+=======
+                string queryAtualizar = "UPDATE Funcionarios SET Nome = @Nome WHERE IdFuncionarios = @ID";
+
+                using (SqlCommand cmd = new SqlCommand(queryAtualizar, con))
+                {
+                    cmd.Parameters.AddWithValue("@ID", funcionario.IdFuncionarios);
+                    cmd.Parameters.AddWithValue("@Nome", funcionario.Nome);
+                    cmd.Parameters.AddWithValue("@Sobrenome", funcionario.Sobrenome);
+
+                    con.Open();
+>>>>>>> 98381161094f18fe6eda70c12c3e712475e3fd0d
 
                     cmd.ExecuteNonQuery();
                 }
@@ -29,7 +45,14 @@ namespace Senai.Peoples.WebApi.Repositories
 
         }
 
+<<<<<<< HEAD
 
+=======
+        public void Atualizar(int id)
+        {
+            throw new NotImplementedException();
+        }
+>>>>>>> 98381161094f18fe6eda70c12c3e712475e3fd0d
 
         public FuncionarioDomain BuscarPorId(int id)
         {
@@ -102,6 +125,13 @@ namespace Senai.Peoples.WebApi.Repositories
             }
         }
 
+<<<<<<< HEAD
+=======
+        public void Inserir(int id)
+        {
+            throw new NotImplementedException();
+        }
+>>>>>>> 98381161094f18fe6eda70c12c3e712475e3fd0d
 
         public List<FuncionarioDomain> Listar()
         {
