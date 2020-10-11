@@ -57,12 +57,12 @@ namespace Senai.Peoples.WebApi.Controllers
 
         //Método de Inserir por Id
         [HttpPut]
-<<<<<<< HEAD
+
         public IActionResult InserirPorId    ( FuncionarioDomain funcionarioAtualizado)
         {
             
 
-            if (funcionarioAtualizado == null)
+           
 =======
         public IActionResult InserirPorId    (int id, FuncionarioDomain funcionarioAtualizado)
         {
